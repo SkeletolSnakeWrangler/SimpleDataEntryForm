@@ -1,7 +1,5 @@
 # SimpleDataEntryForm
 
-# Simple Data Entry
-
 How to run:
 1. This is a web application built off HTML/CSS/Javascript/C# Coding language and can be run in any IDE.
 2. Navigate to the GitHub repository if a link was not already sent, and using the green "<> Code" button, copy the repository link in whichever way works best (I typically use HTTPS as it seems to work the best for me).
