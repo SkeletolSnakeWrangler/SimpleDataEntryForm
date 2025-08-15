@@ -4,10 +4,11 @@
 
 How to run:
 1. This is a web application built off HTML/CSS/Javascript/C# Coding language and can be run in any IDE.
-2. Navigate to the GitHub repository if a link was not already sent, and using the green "Code" button, clone the repository in whichever way works best (I typically use HTTPS as it seems to work the best for me).
-3. Once you have the address of the repository copied, paste it into your local IDE to clone the code from the project.
-4. After the project files are loaded into your local IDE, you simply need to run them to have the local database entry page appear on your screen.
-5. From here, you should be able to use the Web Application as intended.
+2. Navigate to the GitHub repository if a link was not already sent, and using the green "<> Code" button, copy the repository link in whichever way works best (I typically use HTTPS as it seems to work the best for me).
+3. Once you have the address of the repository copied, paste it into your local IDE to clone the repository onto your local device.
+4. This should work with most IDEs; however, this was developed in Microsoft Visual Studio, so that may be the best option.
+5. After the project files are loaded into your local IDE, you simply need to run them as HTTPS to have the local database entry page appear on your screen.
+6. From here, you should be able to use the Web Application as intended in the Version 1.0 Description below.
 
 Version 1.0
 -----------
