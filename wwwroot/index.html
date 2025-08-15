@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Data Entry</title>
+    <link href="./home-logo-large.png" rel="icon" />
+    <script src="./app.js" defer></script>
+    <link href="./styles.css" rel="stylesheet" />
+</head>
+    <body>
+        <div id="pgHeader">
+            <h1>Welcome, please fill out the required information (Name and Title) and any additional information as well below:</h1>
+        </div>
+        <form action="/submit" method="post" class="formFields">
+            <div id="reqFormFields">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required />
+
+                <label for="title">Title</label>
+                <input type="text" id="title" name="title" required />
+            </div>
+            <div id="optFormFields">
+                <label for="age">Age</label>
+                <input type="text" id="age" name="age" />
+
+                <label for="hometown">Hometown</label>
+                <input type="text" id="hometown" name="hometown" />
+            </div>
+            <div id="sbmtButton">
+                <button id="submit">Submit</button>
+            </div>
+        </form>
+    </body>
+</html>

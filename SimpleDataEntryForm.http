@@ -1,0 +1,6 @@
+@SimpleDataEntryForm_HostAddress = http://localhost:5216
+
+GET {{SimpleDataEntryForm_HostAddress}}//
+Accept: application/json
+
+###
