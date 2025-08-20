@@ -5,7 +5,7 @@ using SimpleDataEntryForm.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Build an absolute path: <project folder>\App_Data\data.db
+// Build an absolute path
 var dbDir = Path.Combine(builder.Environment.ContentRootPath, "App_Data");
 var dbPath = Path.Combine(dbDir, "data.db");
 Directory.CreateDirectory(dbDir);
@@ -16,14 +16,13 @@ builder.Services.AddDbContext<AppDbContext>(opt =>
 
 var app = builder.Build();
 
-// Apply migrations at runtime (NOT EnsureCreated when using migrations)
+// Apply migrations at runtime
 using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
     db.Database.Migrate();
 }
 
-// Static files, endpoints, etc. (unchanged)
 app.UseDefaultFiles();
 app.UseStaticFiles();
 
